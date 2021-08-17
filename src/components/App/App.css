@@ -1,0 +1,14 @@
+.app {
+	width: 100vw;
+	min-height: 100vh;
+	background-color: #f2f2f2;
+}
+
+.app__body {
+	transform: translateY(-20px);
+}
+
+/* DARK MODE */
+.app--dark {
+	background-color: #171823;
+}

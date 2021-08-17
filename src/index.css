@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+:root {
+	--text-color-primary-light: #494c6b;
+	--text-color-secondary-light: #9495a5;
+
+	--text-color-primary-dark: #c8cbe7;
+	--text-color-secondary-dark: #5b5e7e;
+
+	--text-color-completed-light: #d1d2da;
+	--text-color-completed-dark: #4d5067;
+
+	--icon-color-light: #494c6b;
+	--icon-color-dark: #5b5e7e;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+li {
+	list-style: none;
+}

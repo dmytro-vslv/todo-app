@@ -1,0 +1,95 @@
+.input-field {
+	width: 100%;
+	height: 48px;
+	box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+	border-radius: 5px;
+	background-color: #fff;
+	position: relative;
+}
+
+.input-field__input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	background: none;
+	border-radius: inherit;
+	padding-left: 20px;
+	padding-right: 50px;
+	font-size: 12px;
+	letter-spacing: -0.17px;
+}
+
+.input-field__button {
+	font-size: 12px;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	background: none;
+	border: none;
+	outline: none;
+	color: var(--icon-color-light);
+}
+
+.input-field__button--create {
+	cursor: pointer;
+}
+
+.input-field__switcher {
+	cursor: pointer;
+	position: absolute;
+	top: -20px;
+	right: 0;
+	transform: translateY(-50%);
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	background: inherit;
+	border: none;
+	outline: none;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #494c6b;
+}
+
+/* DARK MODE */
+.input-field--dark {
+	background-color: #25273d;
+	box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
+}
+
+.input-field--dark .input-field__input {
+	color: #c8cbe7;
+}
+
+.input-field--dark .input-field__button,
+.input-field--dark .input-field__switcher {
+	color: #494c6b;
+}
+
+@media (min-width: 768px) {
+	.input-field {
+		height: 64px;
+	}
+
+	.input-field__input {
+		font-size: 18px;
+		letter-spacing: -0.25px;
+	}
+
+	.input-field__button {
+		font-size: 18px;
+	}
+
+	.input-field__switcher {
+		width: 40px;
+		height: 40px;
+		top: 50%;
+		right: -50px;
+		transform: translateY(-50%);
+		font-size: 18px;
+	}
+}

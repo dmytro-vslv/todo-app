@@ -1,0 +1,27 @@
+.body__hr {
+	margin: 10px 0;
+	background-color: #626be2;
+	height: 1px;
+	border: 0;
+}
+
+.body__control-panel {
+	margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+	.body {
+		position: relative;
+	}
+
+	.body__control-panel {
+		margin-bottom: 0;
+	}
+
+	.body__filter {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}

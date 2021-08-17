@@ -1,0 +1,36 @@
+.mode-toggler {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.mode-toggler__icon {
+	width: 20px;
+	height: 20px;
+}
+
+@media (min-width: 768px) {
+	.mode-toggler__icon {
+		width: 26px;
+		height: 26px;
+	}
+}
+
+/* ANIMATION */
+.mode-toggler__icon--enter {
+	transform: rotateY(90deg);
+}
+
+.mode-toggler__icon--enter-active {
+	transform: rotateY(0);
+	transition: transform 200ms;
+}
+
+.mode-toggler__icon--exit {
+	transform: rotateY(0);
+}
+
+.mode-toggler__icon--exit-active {
+	transform: rotateY(90deg);
+	transition: transform 200ms;
+}
